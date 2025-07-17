@@ -1,11 +1,11 @@
 import './App.css'
-import About from './Components/About'
-import Home from './Components/Home'
-import Services from './Components/Services'
-import Contact from './Components/Contact'
+import About from './components/About'
+import Home from './components/Home'
+import Services from './components/Services'
+import Contact from './components/Contact'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from './Components/Navbar'
-import Footer from './Components/Footer'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 

@@ -1,4 +1,8 @@
+import { useContext } from "react";
+
 function UserProfile(props) {
+  const UserContext = useContext()
+
   return(
     <div>
       <h2>{props.name}</h2>

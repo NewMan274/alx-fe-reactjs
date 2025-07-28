@@ -4,6 +4,8 @@ import RecipeList from './components/RecipeList';
 import RecipeDetails from './components/RecipeDetails';
 import SearchBar from './components/SearchBar';
 import './App.css';
+import FavoritesList from './components/FavoritesList';
+import RecommendationsList from './components/RecommendationsList';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <div className="p-4 max-w-2xl mx-auto">
         <AddRecipeForm />
         <SearchBar />
+        <FavoritesList />
+        <RecommendationsList />
         <Routes>
           <Route path="/" element={<RecipeList />} />
           <Route path="/recipe/:id" element={<RecipeDetails />} />
@@ -19,5 +23,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

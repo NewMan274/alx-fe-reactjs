@@ -1,8 +1,10 @@
 import useRecipeStore from "../store/useRecipeStore";
 import { Link } from 'react-router-dom';
+/* import FavoriteToggleButton from "./FavoriteToggleButton"; */
 
 const RecipeList = () => {
   const recipes = useRecipeStore(state => state.filteredRecipes);
+  /* const recipee = useRecipeStore(state => state.recipe) */
 
   return (
     <div>
@@ -14,6 +16,7 @@ const RecipeList = () => {
           <p>{recipe.description}</p>
         </div>
       ))}
+      {/* <FavoriteToggleButton recipeId={recipee.id} /> */}
     </div>
   );
 };

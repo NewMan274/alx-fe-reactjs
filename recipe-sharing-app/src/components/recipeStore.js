@@ -18,3 +18,7 @@ const useRecipeStore = create(set => ({
 }));
 
 export default useRecipeStore;
+
+"setSearchTerm"
+
+"searchTerm"

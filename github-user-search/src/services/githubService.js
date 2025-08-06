@@ -76,4 +76,5 @@ export const searchUsers = async ({
   }
 };
 
-["https://api.github.com/search/users?q", "minRepos"]
+/* ["https://api.github.com/search/users?q", "minRepos"]
+["fetchUserData"] */

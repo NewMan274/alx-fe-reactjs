@@ -168,3 +168,5 @@ const Search = () => {
 };
 
 export default Search;
+
+["fetchUserData"]

@@ -17,6 +17,14 @@ function HomePage() {
         Recipe Sharing Platform
       </h1>
 
+      <div className="text-right mb-6">
+        <Link
+          to="/add-recipe"
+          className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition"
+        >
+          + Add Recipe
+        </Link>
+      </div>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {recipes.map((recipe) => (
           <div

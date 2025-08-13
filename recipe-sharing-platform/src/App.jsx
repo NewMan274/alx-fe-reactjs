@@ -14,3 +14,5 @@ function App() {
 }
 
 export default App;
+
+/* "react-router-dom", "BrowserRouter", "Route", "Routes", "RecipeDetail" */

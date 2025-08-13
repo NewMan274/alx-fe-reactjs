@@ -1,20 +1,22 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
     fetch("/data.json")
-      .then((response) => response.json())
+      .then((res) => res.json())
       .then((data) => setRecipes(data))
-      .catch((error) => console.error("Error loading recipes:", error));
+      .catch((err) => console.error("Error loading recipes:", err));
   }, []);
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-center mb-8">Recipe Sharing Platform</h1>
+      <h1 className="text-3xl font-bold text-center mb-8">
+        Recipe Sharing Platform
+      </h1>
 
-      {/* Grid layout */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {recipes.map((recipe) => (
           <div
@@ -29,12 +31,12 @@ function HomePage() {
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2">{recipe.title}</h2>
               <p className="text-gray-600 text-sm">{recipe.summary}</p>
-              <a
-                href={`/recipe/${recipe.id}`}
+              <Link
+                to={`/recipe/${recipe.id}`}
                 className="mt-3 inline-block text-indigo-600 hover:underline font-medium"
               >
                 View Recipe →
-              </a>
+              </Link>
             </div>
           </div>
         ))}
@@ -44,4 +46,3 @@ function HomePage() {
 }
 
 export default HomePage;
-//

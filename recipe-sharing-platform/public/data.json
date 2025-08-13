@@ -3,25 +3,162 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta or bacon",
+      "2 eggs",
+      "50g parmesan cheese",
+      "Black pepper to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "Fry pancetta until crispy.",
+      "Whisk eggs with parmesan and pepper.",
+      "Combine hot pasta with pancetta and egg mixture.",
+      "Serve immediately."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
-  }
-  ,
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g chicken breast",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice mix",
+      "1 onion",
+      "200ml tomato puree",
+      "100ml cream"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and spices for 1 hour.",
+      "Grill or pan-fry chicken until cooked.",
+      "Sauté onions, add tomato puree, and simmer.",
+      "Add chicken and cream, cook until heated through.",
+      "Serve with rice or naan."
+    ]
+  },
   {
     "id": 3,
     "title": "Vegetable Stir Fry",
-    "summary": "A quick and healthy stir fry with mixed vegetables and a savory sauce.",
-    "image": "https://via.placeholder.com/150"
+    "summary": "A quick and healthy stir fry with mixed vegetables.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 bell pepper, sliced",
+      "1 carrot, julienned",
+      "2 tbsp soy sauce",
+      "1 tbsp olive oil",
+      "1 tsp sesame seeds"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add vegetables and stir-fry for 5-7 minutes.",
+      "Add soy sauce and cook for another 2 minutes.",
+      "Sprinkle with sesame seeds before serving."
+    ]
   },
   {
     "id": 4,
+    "title": "Chocolate Chip Cookies",
+    "summary": "Classic cookies with chocolate chips, perfect for any occasion.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "125g butter",
+      "100g brown sugar",
+      "1 egg",
+      "200g flour",
+      "100g chocolate chips",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C (350°F).",
+      "Cream butter and sugar together.",
+      "Beat in the egg and vanilla extract.",
+      "Stir in flour and chocolate chips.",
+      "Scoop onto a baking tray and bake for 10-12 minutes."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Caesar Salad",
+    "summary": "A fresh salad with romaine lettuce, croutons, and Caesar dressing.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 head romaine lettuce",
+      "50g croutons",
+      "30g parmesan cheese",
+      "2 tbsp Caesar dressing",
+      "Black pepper to taste"
+    ],
+    "instructions": [
+      "Chop lettuce and place in a bowl.",
+      "Add croutons and parmesan cheese.",
+      "Drizzle with Caesar dressing and toss gently.",
+      "Season with black pepper before serving."
+    ]
+  },
+  {
+    "id": 6,
     "title": "Beef Tacos",
-    "summary": "Soft or hard shell tacos filled with seasoned ground beef, lettuce, cheese, and salsa.",
-    "image": "https://via.placeholder.com/150"
+    "summary": "Tasty tacos filled with seasoned ground beef and fresh toppings.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g ground beef",
+      "1 taco seasoning packet",
+      "8 taco shells",
+      "1 cup lettuce, shredded",
+      "1 tomato, diced",
+      "100g cheese, grated"
+    ],
+    "instructions": [
+      "Cook ground beef in a pan until browned.",
+      "Add taco seasoning and water, simmer for 5 minutes.",
+      "Fill taco shells with beef, lettuce, tomato, and cheese.",
+      "Serve with salsa or hot sauce."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Pancakes",
+    "summary": "Fluffy pancakes perfect for breakfast or brunch.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "200g flour",
+      "2 tbsp sugar",
+      "1 tsp baking powder",
+      "1 egg",
+      "300ml milk",
+      "50g butter, melted"
+    ],
+    "instructions": [
+      "Mix flour, sugar, and baking powder in a bowl.",
+      "In another bowl, whisk egg and milk, then add melted butter.",
+      "Combine wet and dry ingredients until just mixed.",
+      "Cook on a hot griddle until bubbles form, then flip and cook until golden."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Mushroom Risotto",
+    "summary": "Creamy risotto with mushrooms and parmesan cheese.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "200g Arborio rice",
+      "500ml vegetable broth",
+      "100g mushrooms, sliced",
+      "1 onion, chopped",
+      "50g parmesan cheese",
+      "2 tbsp olive oil"
+    ],
+    "instructions": [
+      "Heat olive oil in a pan, sauté onions until translucent.",
+      "Add mushrooms and cook until soft.",
+      "Stir in rice, then gradually add broth, stirring frequently.",
+      "Cook until rice is al dente, then stir in parmesan cheese.",
+      "Serve hot."
+    ]
   }
 ]
